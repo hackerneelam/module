@@ -2,16 +2,76 @@ Problem Definition:
 
 To build Informatio Management Solution
 The Employees will access Feedback Management 
-System and leave Management related information. 
+System and leave Management related information 
 Comapany name: Fabrikam, 24 branches all over world.
 
 
-subcription(registration)
-Athentication(login, logout)
-Catalog(product list, likes)
-Employee(view feedback)
-User(viewlist,feedback,product details)
-product(add,remove, update)
-Cart(add to cart,cancel)
+Entities:
+
+subcription (registration)
+Athentication (login, logout)
+customerController (product list, likes,product details)
+orderController (add to cart,cancel)
+billController (payment gateway, payment status)
+ProductController (add,remove, update)
+
+
+Actors:
+
+1)Customer
+2)Employee
+
+
+
+Functional Requirements:
+
+1.For customer:
+
+
+1) Login
+2) Registration (if new customer)
+3) View ProductList
+4) view Product Details
+5) Add To Cart, Remove from cart
+6) Cancel Order
+7) Give Product Ratings 	
+8) Logout
+
+2. For Employee:
+
+
+1) Login(as Admin)
+2) view customer List
+3) update Products (add product, remove product, update product details)
+4) view customer ratings/feedback
+
+
+Non Functional Requirements:
+
+1) Billing 
+2) Rating analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
