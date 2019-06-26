@@ -1,0 +1,17 @@
+Problem Definition:
+
+To build Informatio Management Solution
+The Employees will access Feedback Management 
+System and leave Management related information. 
+Comapany name: Fabrikam, 24 branches all over world.
+
+
+subcription(registration)
+Athentication(login, logout)
+Catalog(product list, likes)
+Employee(view feedback)
+User(viewlist,feedback,product details)
+product(add,remove, update)
+Cart(add to cart,cancel)
+
+
